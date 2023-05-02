@@ -1,5 +1,9 @@
 import achievement from "./achievement.png";
-import avatar from "./avatar.png";
+import avatar1 from './avatar1';
+import avatar2 from './avatar2';
+import { default as avatar3, default as avatar4 } from './avatar3';
+import avatar5 from './avatar5.png';
+import avatar6 from './avatar6.png';
 import blogImg1 from "./blog-1.png";
 import close from "./close.svg";
 import companyLogo1 from "./company-logo-1.png";
@@ -14,6 +18,12 @@ import logo from "./logo.svg";
 import quotationMark from "./quotationMark.png";
 
 export {
+  avatar1,
+  avatar2,
+  avatar3,
+  avatar4,
+  avatar5,
+  avatar6,
   hamburgerMenu,
   close,
   logo,

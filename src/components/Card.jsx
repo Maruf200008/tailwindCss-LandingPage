@@ -4,7 +4,8 @@ const Card = ({ course }) => {
   console.log(course);
   const { category, linkImg, price, rating, title } = course;
   return (
-    <div className=" bg-white drop-shadow-md overflow-hidden rounded-2xl mr-2 my-4">
+  <div className="p-3">
+    <div className=" bg-white drop-shadow-md overflow-hidden rounded-2xl  mr-2 my-4">
       <img src={linkImg} alt="blogImg1" className=" h-40 w-full object-cover" />
       <div className="p-5 border border-b">
         <h1 className=" py-2 truncate">{title}</h1>
@@ -15,6 +16,7 @@ const Card = ({ course }) => {
         {category}
       </div>
     </div>
+  </div>
   );
 };
 

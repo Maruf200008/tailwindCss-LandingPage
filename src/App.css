@@ -10,15 +10,19 @@
 }
 .slick-prev::before,
 .slick-next::before {
-  color: black;
+  color: #20b486;
   font-size: 25px;
 }
 .slick-next::before {
   margin-left: -40px;
 }
 .slick-prev {
-  margin-left: 15px;
+  margin-left: 10px;
   z-index: 9999;
+}
+
+.categorie-card:hover .arrow-icon {
+  fill: white;
 }
 
 /* #root {
