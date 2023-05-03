@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
+import { avatar1, avatar2, avatar3, avatar4, avatar5, avatar6 } from '../assets';
 import { feedbackSettings } from "../utils/feedbackSettings";
 import FeedbackCard from "./FeedbackCard";
-
 const Feedback = () => {
   return (
     <div className="w-full bg-white py-24">
@@ -16,7 +16,12 @@ const Feedback = () => {
           molestias.
         </p>
         <Slider {...feedbackSettings}>
-          <FeedbackCard image="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/242562980_869963400557541_563947929337622916_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=EyySBAfnscMAX86rOFM&_nc_ht=scontent.fdac14-1.fna&oh=00_AfBLjhclC4rJM-gwdRvuQwEVVYGVX8Brjkfwv3NcPeQRcA&oe=6456655D" />
+          <FeedbackCard image={avatar1} />
+          <FeedbackCard image={avatar2} />
+          <FeedbackCard image={avatar3} />
+          <FeedbackCard image={avatar4} />
+          <FeedbackCard image={avatar5} />
+          <FeedbackCard image={avatar6} />
         </Slider>
       </div>
     </div>
