@@ -7,8 +7,8 @@ import { logo } from "../assets";
 const Footer = () => {
   return (
     <div className="w-full bg-white py-24">
-      <div className="md:max-w-[1240px] m-auto grid md:grid-cols-4 gap-8  max-w-[500px]">
-        <div className=" border space-y-4">
+      <div className="md:max-w-[1240px] m-auto grid md:grid-cols-5 max-[780px]:grid-col-2  gap-8  max-w-[500px]">
+        <div className="  space-y-4 col-span-2">
           <img src={logo} alt="logo" className="h-[25px]" />
           <h3 className="text-2xl font-bold mt-10">Contact Us</h3>
           <h3 className=" text-[#6d737a]">Call: +123 400 123</h3>
@@ -55,6 +55,22 @@ const Footer = () => {
             <li>Photography</li>
             <li>Music</li>
           </ul>
+        </div>
+        <div className="space-y-4 max-[780px]:col-span-2 ">
+          <h3 className=" text-2xl font-bold">Subscribe</h3>
+          <h3 className=" text-[#6d737a]">
+            Lorem ipsum dolor sit amet consectetur adipis
+          </h3>
+          <form>
+            <input
+              type="text"
+              className=" bg-[#f2f3f4] p-4 focus:outline-none w-full rounded"
+              placeholder="Email here"
+            />
+            <button className=" bg-primaryGrin max-[780px]:w-full   px-8 py-3 rounded-md text-white font-semibold my-5">
+              Subscribe Now
+            </button>
+          </form>
         </div>
       </div>
     </div>
